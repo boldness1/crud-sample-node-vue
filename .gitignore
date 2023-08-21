@@ -1,0 +1,31 @@
+package-lock.json
+
+
+# Logs
+notation-client/logs
+notation-client/*.log
+nnotation-client/pm-debug.log*
+notation-client/yarn-debug.log*
+notation-client/yarn-error.log*
+notation-client/pnpm-debug.log*
+notation-client/lerna-debug.log*
+
+notation-client/node_modules
+notation-client/.DS_Store
+notation-client/dist
+notation-client/dist-ssr
+notation-client/coverage
+notation-client/*.local
+
+notation-client/cypress/videos/
+notation-client/cypress/screenshots/
+
+# Editor directories and files
+notation-client/.vscode/*
+notation-client/!.vscode/extensions.json
+notation-client/.idea
+notation-client/*.suo
+notation-client/*.ntvs*
+notation-client/*.njsproj
+notation-client/*.sln
+notation-client/*.sw?
