@@ -5,10 +5,10 @@ const registerValidator = () => {
 
 
     return  [
-        body('firstname' )
+        body('firstName' )
             .notEmpty()
             .withMessage('Ad alanı zorunludur'),
-        body('lastname' )
+        body('lastName' )
             .notEmpty()
             .withMessage('Soy ad alanı zorunludur'),
         body('email' )
