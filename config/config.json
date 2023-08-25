@@ -14,10 +14,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "appnation_futureuse",
+    "password": "adbbd4e3c27c63e490cc299a232be7e190a5af95",
+    "database": "appnation_futureuse",
+    "host": "imh.h.filess.io",
+    "dialect": "mysql",
+    "port": 3307
   }
 }
