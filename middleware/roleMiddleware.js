@@ -1,7 +1,7 @@
 
 
 const roleMiddleware = function (req, res, next) {
-    console.log(req.user)
+    // console.log(req.user)
     if(req.user.role === "admin" )
         next();
     else

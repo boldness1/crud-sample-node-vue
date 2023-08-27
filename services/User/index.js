@@ -102,6 +102,13 @@ async function updateUser(params) {
     const {id} = params
 
     delete params.id
+    delete params.Role
+    delete params.updatedAt
+    delete params.createdAt
+    delete params.password
+    delete params.deletedAt
+
+    // console.log(params, ' paramssss')
     try {
 
         const user = await User.findByPk(id);
@@ -113,7 +120,12 @@ async function updateUser(params) {
             }
         }
 
-        await user.update(params);
+        await user.update({
+            email: params.email,
+            firstName: params.firstName,
+            lastName: params.lastName,
+        },
+        );
 
         return {
             error: false,

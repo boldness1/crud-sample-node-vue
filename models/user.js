@@ -41,10 +41,11 @@ module.exports = (sequelize, DataTypes) => {
           user.password = hashSync(user.password, 10);
         }
       },
-      beforeUpdate(user, options) {
+/*      beforeUpdate(user, options) {
+        console.log(user.password, ' hook')
         if(user.password && user.password.length)
           user.password = hashSync(user.password, 10)
-      }
+      }*/
     },
   });
 
