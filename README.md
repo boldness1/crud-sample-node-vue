@@ -4,7 +4,7 @@
 
 #aws Ec2 instance
 
-## http://ec2-35-159-25-42.eu-central-1.compute.amazonaws.com/
+## http://ec2-35-159-25-42.eu-central-1.compute.amazonaws.com:3001
 
 Node express js framework ve minimal routing/middleware yapısı kullanılmıştır.
  
